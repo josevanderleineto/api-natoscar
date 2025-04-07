@@ -9,7 +9,7 @@ app.use(express.json());
 
 // Configuração do banco de dados
 const pool = new Pool({
-  connectionString: process.env.DATABASE_URL || 'postgresql://neondb_owner:npg_dJxih4m6XUbv@ep-soft-unit-ace9qegi-pooler.sa-east-1.aws.neon.tech/natoscar?sslmode=require',
+  connectionString: process.env.DATABASE_URL,
   ssl: {
     rejectUnauthorized: false
   }

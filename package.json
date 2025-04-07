@@ -1,6 +1,7 @@
 {
   "name": "natoscar-api",
   "version": "1.0.0",
+  "license": "MIT",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
@@ -12,6 +13,7 @@
     "cors": "^2.8.5"
   },
   "engines": {
-    "node": ">=18.x"
+    "node": "18.x",
+    "npm": "9.x"
   }
 }
